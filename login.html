@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <section class="user">
+    <div class="user_options-container">
+      <div class="user_options-text">
+        <div class="user_options-unregistered">
+          <h2 class="user_unregistered-title">Don't have an account?</h2>
+          <p class="user_unregistered-text">Create an account now!</p>
+          <button class="user_unregistered-signup" id="signup-button">Sign up</button>
+        </div>
+
+        <div class="user_options-registered">
+          <h2 class="user_registered-title">Have an account?</h2>
+          <p class="user_registered-text">Login Now..</p>
+          <button class="user_registered-login" id="login-button">Login</button>
+        </div>
+      </div>
+
+      <div class="user_options-forms" id="user_options-forms">
+        <div class="user_forms-login">
+          <h2 class="forms_title">Login</h2>
+          <div class="forms_form">
+            <fieldset class="forms_fieldset">
+              <div class="forms_field">
+                <input id="eLogin" type="email" placeholder="Email" class="forms_field-input"/>
+              </div>
+              <div class="forms_field">
+                <input id="pLogin" type="password" placeholder="Password" class="forms_field-input"/>
+              </div>
+            </fieldset>
+            <div class="forms_buttons">
+              <button type="button" class="forms_buttons-forgot">Forgot password?</button>
+              <input onclick="login()" type="submit" value="Log In" class="forms_buttons-action">
+            </div>
+          </div>
+        </div>
+        <div class="user_forms-signup">
+          <h2 class="forms_title">Sign Up</h2>
+          <div class="forms_form">
+            <fieldset class="forms_fieldset">
+              <div class="forms_field">
+                <input id="uSignUp" type="text" placeholder="Full Name" class="forms_field-input"/>
+              </div>
+              <div class="forms_field">
+                <input id="eSignUp" type="email" placeholder="Email" class="forms_field-input"/>
+              </div>
+              <div class="forms_field">
+                <input id="pSignUp" type="password" placeholder="Password" class="forms_field-input"/>
+              </div>
+              <div class="forms_field">
+                <input id="cfPwdSignUp" type="password" placeholder="Confirm Password" class="forms_field-input"/>
+              </div>
+            </fieldset>
+            <div class="forms_buttons">
+              <input onclick="register()" type="submit" value="Sign up" class="forms_buttons-action">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="login.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+  <script src="./jsCustom/registerAuthen.js"></script>
+</body>
+
+</html>

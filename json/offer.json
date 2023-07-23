@@ -1,0 +1,26 @@
+[
+    {
+        "image" : "images/img-1.png" ,
+        "title" : "Các loại cà phê",
+        "description" : "Mặc dù trong mùa hè nóng nực thì cà phê vẫn là một thức uống tuyệt vời để được thưởng thức" 
+    },
+
+    {
+        "image" : "images/img-2.png" ,
+        "title" : "Các loại nước ép",
+        "description" : "Nước ép là một sự lụa chọn hoàn hảo mang lại hương vị và sự giải khát tuyệt vời" 
+    },
+
+    {
+        "image" : "images/img-3.png" ,
+        "title" : "Các loại đố ngọt",
+        "description" : "Các loại đồ ngọt cung cấp nguồn năng lượng dồi dào cho mùa hè thật sôi nổi" 
+    },
+
+    {
+        "image" : "images/img-4.png" ,
+        "title" : "Quà lưu niệm",
+        "description" : "Những món quà lưu niệm nhỏ xinh để trang trí hay tặng người thân" 
+    }
+
+]
